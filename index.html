@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BackboneJs</title>
+    <style>
+        #orderNav ul li {
+            cursor: pointer;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
 
     <div id="demo"></div>
     <div id="testing"></div>
+
+    <nav id="orderNav">
+        <ul>
+            <li data-url="firstOrder">First Order</li>
+            <li data-url="secondOrder">Second Order</li>
+            <li data-url="thirdOrder">Third Order</li>
+        </ul>
+    </nav>
 
     <script id="demoTemplate" type="text/html">
         This is the External example of template
@@ -31,6 +45,8 @@
     <!-- <script src="customEvent.js"></script> -->
     <!-- <script src="eventHandler.js"></script> -->
     <!-- <script src="templates.js"></script> -->
-    <script src="eventHandling.js"></script>
+    <!-- <script src="eventHandling.js"></script> -->
+    <!-- <script src="router.js"></script> -->
+    <script src="routerSecond.js"></script>
 </body>
 </html>
